@@ -44,30 +44,39 @@ This project is intended for studying data structure design, common operations, 
 📂 Data Structrue/
 ├── 📂 Stack/
 |    └── 📄 stack.py
+|         └── 📄 REEDME.md
 |
 ├── 📂 Queue/
 |    └── 📄 queue.py
+|         └── 📄 REEDME.md
 |
 ├── 📂 LinkedLists/
 |    └── 📄 allLinkedLists.py
+|         └── 📄 REEDME.md
 |
 ├── 📂 Heaps/
 |    └── 📄 heap.py
+|         └── 📄 REEDME.md
 |
 ├── 📂 Hashmap/
 |    └── 📄 hashmap.py
+|         └── 📄 REEDME.md
 |
 ├── 📂 Graphs/
 |    └── 📄 graphs.py
+|         └── 📄 REEDME.md
 |
 ├── 📂 Trie/
 |    └── 📄 trie.py
+|         └── 📄 REEDME.md
 |
 ├── 📂 BinarySearchTree/
 |    └── 📄 BinaryTree.py
-├── 📄 main.py
-├── 📄 main(all_data_structure).py
-├── 📄 REEDME.md
+|         └── 📄 REEDME.md
+└── 📄 main.py
+└── 📄 main(all_data_structure).py
+└── 📄 REEDME.md
+```
 ```
 
 ## Contributing
