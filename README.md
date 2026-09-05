@@ -77,7 +77,6 @@ This project is intended for studying data structure design, common operations, 
 └── 📄 main(all_data_structure).py
 └── 📄 REEDME.md
 ```
-```
 
 ## Contributing
 
