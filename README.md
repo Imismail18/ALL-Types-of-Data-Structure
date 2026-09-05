@@ -1,76 +1,73 @@
-# Binary Search Tree
+# ALL Types of Data Structures
 
-A complete implementation of a Binary Search Tree (BST) in Python with full support for standard tree operations.
+A Python collection of common data structures implemented from scratch for learning and practice.
 
-## Description
+## Included
 
-This project provides a robust implementation of a Binary Search Tree data structure, featuring:
+- Stack and Queue
+- Singly, doubly, and circular linked lists
+- Hash map
+- Min heap and max heap
+- Directed, undirected, weighted, and unweighted graphs
+- Trie
+- Binary search tree
 
-- **BSTNode**: Represents individual tree nodes with key, value, and parent pointers
-- **BinarySearchTree**: Main class with essential BST operations
+Each data structure has its own folder with an implementation and README file. The combined implementations are also available in `alldatastructures.py`.
 
-## Features
+## Run the examples
 
-- **Insert**: Add key-value pairs while maintaining BST ordering
-- **Search**: Find nodes by key efficiently
-- **Delete**: Remove nodes handling three cases (leaf, one child, two children)
-- **Traversals**: In-order, pre-order, and post-order traversals
-- **Magic Methods**: Support for `len()`, `in`, iteration, and string representation
-- **Helper Methods**: `_successor()` and `_predecessor()` for advanced operations
-
-## Usage
-
-```python
-from BinaryTree import BinarySearchTree
-
-# Create a BST
-bst = BinarySearchTree()
-
-# Insert key-value pairs
-bst.insert(10, "Ismail")
-bst.insert(5, "hamada")
-bst.insert(22, "sam")
-bst.insert(2, "salah")
-
-# Search for a node
-node = bst.search(10)
-
-# Check if key exists
-if 10 in bst:
-    print("Key found!")
-
-# Delete a node
-bst.delete(5)
-
-# Traverse the tree
-for key, value in bst.traverse("inorder"):
-    print(f"{key}: {value}")
-
-# Iterate through the tree
-for key, value in bst:
-    print(f"{key}: {value}")
-```
-
-## Time Complexity
-
-- Insert: O(log n) average, O(n) worst case
-- Search: O(log n) average, O(n) worst case
-- Delete: O(log n) average, O(n) worst case
-
-## Installation
-
-Clone the repository and run:
+Run the main demonstration file:
 
 ```bash
-python BinaryTree.py
+python main.py
 ```
+
+Or run the combined implementation directly:
+
+```bash
+python alldatastructures.py
+```
+
+The graph examples require `numpy`, and the hash map visualization optionally uses `matplotlib`:
+
+```bash
+pip install numpy matplotlib
+```
+
+## Purpose
+
+This project is intended for studying data structure design, common operations, and their time complexities in Python.
 
 ## Project Structure
 
 ```text
-📂 BinarySearchTree/
-├── 📄 BinaryTree.py
-├── 📄 README.md
+📂 Data Structrue/
+├── 📂 Stack/
+|    └── 📄 stack.py
+|
+├── 📂 Queue/
+|    └── 📄 queue.py
+|
+├── 📂 LinkedLists/
+|    └── 📄 allLinkedLists.py
+|
+├── 📂 Heaps/
+|    └── 📄 heap.py
+|
+├── 📂 Hashmap/
+|    └── 📄 hashmap.py
+|
+├── 📂 Graphs/
+|    └── 📄 graphs.py
+|
+├── 📂 Trie/
+|    └── 📄 trie.py
+|
+├── 📂 BinarySearchTree/
+|    └── 📄 BinaryTree.py
+├── 📄 main.py
+├── 📄 main(all_data_structure).py
+├── 📄 REEDME.md
 ```
 
 ## Contributing
@@ -104,4 +101,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
